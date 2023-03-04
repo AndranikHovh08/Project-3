@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="toolBox">
+            <div>
+                <label>
+                    Select Effect:
+                    <select id="imgEffect">
+                        <option value="Fade">Fade</option>
+                        <option value="Slide">Slide</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="">
+                    Time in seconds:
+                    <select id="imgDuration">
+                        <option value="0.5">0.5</option>
+                        <option value="1">1</option>
+                        <option value="1.5">1.5</option>
+                        <option value="2">2</option>
+                        <option value="2.5">2.5</option>
+                        <option value="3">3</option>
+
+                    </select>
+                </label>
+                <div>
+                    <input type="button" id="buttonEnlarge" value="+">
+                    <input type="button" id="buttonShrink" value="-">
+
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <div class="container">
+        <img id="mainImg" src="img/01.jpg" alt="">
+        <ul>
+            <li>
+                <img src="img/01.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/03.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/02.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/04.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/05.jpg" alt="">
+            </li>
+
+        </ul>
+    </div>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
